@@ -28,6 +28,7 @@ def clean_csv(input_file, output_file=None, remove_empty=True, trim_whitespace=T
 
 def main():
     try:
+    try:
     parser = argparse.ArgumentParser(description='Data Cleaner')
     parser.add_argument('input')
     parser.add_argument('-o', '--output')
